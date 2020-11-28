@@ -1,7 +1,6 @@
 Proceso ConversionMetroPulgada
 	
-	Definir pulgada Como Real
-	Definir metro Como Real
+	Definir pulgada, metro Como Real
 	
 	Escribir "Ingrese la cantidad en metros"
 	Leer metro

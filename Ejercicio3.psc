@@ -1,8 +1,6 @@
 Proceso AreaRectagulo
 	
-	Definir lado1 Como Real
-	Definir lado2 Como Real
-	Definir area Como Real
+	Definir lado1, lado2, area Como Real
 	
 	Escribir "Ingrese la medida del primer lado"
 	Leer lado1

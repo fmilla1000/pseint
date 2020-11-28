@@ -1,7 +1,6 @@
 Proceso AreaCirculo
 	
-	Definir radio Como Real
-	Definir area Como Real
+	Definir radio, area Como Real
 	
 	Escribir "Ingrese el radio del circulo"
 	Leer radio

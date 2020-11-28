@@ -1,8 +1,6 @@
 Proceso SumaDosNumeros
 	
-	Definir a Como Real
-	Definir b Como Real
-	Definir total Como Real
+	Definir a, b total Como Real
 	
 	Escribir "Ingresa un numero"
 	Leer a

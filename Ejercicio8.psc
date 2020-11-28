@@ -1,7 +1,6 @@
 Proceso SolesADolares
 	
-	Definir soles Como Real
-	Definir dolares Como Real
+	Definir soles, dolares Como Real
 	
 	Escribir "Ingrese la cantidad en soles"
 	Leer soles

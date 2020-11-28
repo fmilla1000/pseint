@@ -1,8 +1,6 @@
 Proceso AreaTriangulo
 	
-	Definir base Como Real
-	Definir altura Como Real
-	Definir area Como Real
+	Definir base, altura, area Como Real
 	
 	Escribir "Ingrese la base del triangulo"
 	Leer base
