@@ -1,12 +1,14 @@
+SubProceso pulgada <- conversion ( metro )
+	pulgada = metro / 0.0254 
+Fin SubProceso
+
 Proceso ConversionMetroPulgada
 	
-	Definir pulgada, metro Como Real
+	Definir a Como Real
 	
 	Escribir "Ingrese la cantidad en metros"
-	Leer metro
+	Leer a
 	
-	pulgada = metro / 0.0254 
-	
-	Escribir "Resultado en pulgadas = " pulgada
+	Escribir "Resultado en pulgadas = " conversion(a)
 	
 FinProceso

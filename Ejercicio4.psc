@@ -1,14 +1,16 @@
+SubProceso a <- area ( base,altura )
+	a = (base * altura)/2
+Fin SubProceso
+
 Proceso AreaTriangulo
 	
-	Definir base, altura, area Como Real
+	Definir a, b Como Real
 	
 	Escribir "Ingrese la base del triangulo"
-	Leer base
+	Leer a
 	Escribir "Ingrese la altura del triangulo"
-	Leer altura
+	Leer b
 	
-	area = (base * altura)/2
-	
-	Escribir "El area del triangulo es " area
+	Escribir "El area del triangulo es " area(a,b)
 	
 FinProceso

@@ -1,13 +1,14 @@
+SubProceso prom <- promedio ( a,b,c,d )
+	prom = (a + b + c + d)/4
+Fin SubProceso
+
 Proceso PromedioCuatroNotas
 	
-	Definir promedio Como Real
 	Definir a, b, c, d Como Entero
 	
 	Escribir "Ingrese sus notas"
 	Leer a, b, c, d
 	
-	promedio = (a + b + c + d)/4
-	
-	Escribir "Tu promedio total es " promedio
+	Escribir "Tu promedio total es " promedio(a,b,c,d)
 	
 FinProceso

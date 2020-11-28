@@ -1,14 +1,16 @@
+SubProceso ar <- area ( lado1,lado2 )
+	ar = lado1 * lado2
+Fin SubProceso
+
 Proceso AreaRectagulo
 	
-	Definir lado1, lado2, area Como Real
+	Definir a, b Como Real
 	
 	Escribir "Ingrese la medida del primer lado"
-	Leer lado1
+	Leer a
 	Escribir "Ingrese la medida del segundo lado"
-	Leer lado2
+	Leer b
 	
-	area = lado1 * lado2
-	
-	Escribir "El area del rectangulo es " area
+	Escribir "El area del rectangulo es " area(a,b)
 	
 FinProceso

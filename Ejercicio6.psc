@@ -1,16 +1,17 @@
+SubProceso s <- sueldo ( pagoporhora, horastrabajadas)
+	s = pagoporhora * horastrabajadas	
+Fin SubProceso
+
 Proceso SueldoSemanal
 	
-	Definir pagoporhora Como Numerico
-	Definir horastrabajadas Como Entero
-	Definir sueldo Como Real
+	Definir a Como Numerico
+	Definir b Como Entero
 	
 	Escribir "Ingrese el pago por hora"
-	Leer pagoporhora
+	Leer a
 	Escribir "Ingrese la cantidad de horas trabajadas"
-	Leer horastrabajadas
+	Leer b
 	
-	sueldo = pagoporhora * horastrabajadas
-	
-	Escribir "Su sueldo semanal es " sueldo
+	Escribir "Su sueldo semanal es " sueldo(a,b)
 	
 FinProceso

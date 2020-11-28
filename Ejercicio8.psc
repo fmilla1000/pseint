@@ -1,12 +1,14 @@
+SubProceso dolares <- conversion ( soles )
+	dolares = soles * 0.28
+Fin SubProceso
+
 Proceso SolesADolares
 	
-	Definir soles, dolares Como Real
+	Definir a Como Real
 	
 	Escribir "Ingrese la cantidad en soles"
-	Leer soles
+	Leer a
 	
-	dolares = soles * 0.28
-	
-	Escribir "Eso equivale a " dolares " dolares"
+	Escribir "Eso equivale a " conversion(a) " dolares"
 	
 FinProceso

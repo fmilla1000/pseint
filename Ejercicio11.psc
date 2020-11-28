@@ -1,10 +1,4 @@
-Proceso Bono
-	
-	Definir cantidad Como Entero
-	
-	Escribir "Ingrese la cantida de años que lleva trabajando"
-	Leer cantidad
-	
+SubProceso b <- bon ( cantidad )
 	Si cantidad == 1 Entonces
 		Escribir "Usted recibira un bono de $100"
 	FinSi
@@ -23,6 +17,15 @@ Proceso Bono
 	Si cantidad > 5 Entonces
 		Escribir "Usted recibira un bono de $1000"
 	FinSi
+Fin SubProceso
+
+Proceso Bono
 	
+	Definir x Como Entero
+	Definir d Como Caracter
+	
+	Escribir "Ingrese la cantida de años que lleva trabajando"
+	Leer x
+	Escribir bon(x)
 	
 FinProceso

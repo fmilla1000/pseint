@@ -1,14 +1,16 @@
+SubProceso e <- edad ( hoy,nacimiento )
+	e = hoy - nacimiento
+Fin SubProceso
+
 Proceso EdadConNacimiento
 	
-	Definir hoy, nacimiento, edad Como Entero
+	Definir a, b Como Entero
 	
-	Escribir "En que aï¿½o se encuentra"
-	Leer hoy
+	Escribir "En que año se encuentra"
+	Leer a
 	Escribir "Escriba la fecha de nacimiento"
-	Leer nacimiento
+	Leer b
 	
-	edad = hoy - nacimiento
-	
-	Escribir "Su edad es " edad	
+	Escribir "Su edad es " edad(a,b)	
 	
 FinProceso
